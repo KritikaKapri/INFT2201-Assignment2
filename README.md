@@ -1,8 +1,8 @@
-# Oshawa Insights – Weather & News Dashboard
+# 🌤 Oshawa Insights – Weather & News Dashboard
 
 This project is a real-time weather and news dashboard for Oshawa, powered by OpenWeatherMap API and NewsAPI. It fetches the current weather data and the latest news articles about Oshawa and displays them in a sleek, responsive dashboard.
 
-## Table of Contents
+## 📑Table of Contents
 1. [Project Overview](#project-overview)
 2. [Technologies Used](#technologies-used)
 3. [Project Structure](#project-structure)
@@ -13,11 +13,11 @@ This project is a real-time weather and news dashboard for Oshawa, powered by Op
 8. [Running the Application](#running-the-application)
 9. [Contributing](#contributing)
 
-## Project Overview
+## 📌Project Overview
 
 This project aims to provide real-time insights into Oshawa's weather and news. The backend fetches data from OpenWeatherMap and NewsAPI, while the frontend displays the data in a user-friendly, responsive layout.
 
-## Technologies Used
+## 🛠️Technologies Used
 
 - **Backend**: Python, Flask, Requests, python-dotenv
 - **Frontend**: HTML, CSS, JavaScript
@@ -25,7 +25,7 @@ This project aims to provide real-time insights into Oshawa's weather and news. 
 - **Docker**: For containerizing the application
 - **Docker Compose**: To manage multi-container deployment
 
-## Project Structure
+## 📁 Project Structure
 
 ```plaintext
 oshawa-insights-dashboard/
@@ -41,6 +41,7 @@ oshawa-insights-dashboard/
 │   ├── Dockerfile
 ├── docker-compose.yml
 ├── README.md
+```
 
 ## Project Structure
 
@@ -49,7 +50,7 @@ oshawa-insights-dashboard/
 - **docker-compose.yml**: Configuration for Docker Compose to run both backend and frontend services.
 - **README.md**: This file.
 
-## Setup & Installation
+## 🚀 Setup & Installation
 
 ### Prerequisites
 
@@ -63,13 +64,10 @@ oshawa-insights-dashboard/
 
 3. **Python 3.9**: Required for the backend development.
 
-# Oshawa Insights Dashboard
-
-A dashboard displaying weather and news data for Oshawa, Ontario.
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### 🔽 1. Clone the Repository
 ```bash
     git clone https://github.com/yourusername/oshawa-insights-dashboard.git
     cd oshawa-insights-dashboard
