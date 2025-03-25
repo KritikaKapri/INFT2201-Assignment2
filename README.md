@@ -73,7 +73,7 @@ oshawa-insights-dashboard/
     cd oshawa-insights-dashboard
 ```
 
-### Create the `.env` File
+### 📂Create the `.env` File
 
 Create a `.env` file in the `backend/` directory and add your API keys:
 
@@ -82,7 +82,7 @@ WEATHER_API_KEY=your_openweathermap_api_key
 NEWS_API_KEY=your_newsapi_api_key
 ```
 
-### Install Backend Dependencies
+### ⚙️ Install Backend Dependencies
 
 1. Navigate to the `backend/` folder and set up a Python virtual environment:
 
@@ -91,7 +91,7 @@ NEWS_API_KEY=your_newsapi_api_key
         source venv/bin/activate  # For macOS/Linux
         venv\Scripts\activate   # For Windows
     ```
-### Install the Required Packages
+### ⚙️ Install the Required Packages
 
 Run the following command to install the necessary Python packages:
 
@@ -107,9 +107,9 @@ To create a `requirements.txt` file with all the installed dependencies, run the
     pip freeze > requirements.txt
 ```
 
-### Dockerize the Application
+### 🐳 Dockerize the Application
 
-#### Backend Dockerfile
+#### 🖥️ Backend Dockerfile
 
 Create a `Dockerfile` in the `backend/` directory with the following content:
 
@@ -121,7 +121,7 @@ Create a `Dockerfile` in the `backend/` directory with the following content:
     COPY . .
     CMD ["python", "app.py"]
 ```
-#### Frontend Dockerfile
+#### 🎨 Frontend Dockerfile
 
 Create a `Dockerfile` in the `frontend/` directory with the following content:
 
@@ -129,7 +129,7 @@ Create a `Dockerfile` in the `frontend/` directory with the following content:
     FROM nginx:alpine
     COPY ./frontend/ /usr/share/nginx/html
 ```
-## Backend Development
+## 🖥️ Backend Development
 
 ### Step 1: Set Up Flask API
 
@@ -169,7 +169,7 @@ Inside the `backend/` folder, create a file named `app.py` to set up the Flask A
         app.run(host="0.0.0.0", port=5000, debug=True)
 ```
 
-## Frontend Development
+## 🎨 Frontend Development
 
 ### Step 1: Create the Frontend Files
 
@@ -246,7 +246,7 @@ Add the following JavaScript code to `script.js`:
         }
     }
 ```
-## Docker Compose & Deployment
+## 🐳 Docker Compose & Deployment
 
 ### Step 1: Create `docker-compose.yml`
 
@@ -270,7 +270,7 @@ Create a `docker-compose.yml` file in the root directory of your project with th
         - backend
 ```
 
-### Step 2: Run the Application
+### ▶️ Step 2: Run the Application
 
 1. Start the services by running the following command in the root directory of your project:
 
